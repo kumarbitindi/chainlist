@@ -5,13 +5,13 @@ function generateSiteMap(chains) {
    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
      <!--We manually set the two URLs we know already-->
      <url>
-       <loc>https://chainlist.org/</loc>
+       <loc>https://chainlist.bitindi.org/</loc>
      </url>
      ${chains
        .map(({ chainId }) => {
          return `
        <url>
-           <loc>${`https://chainlist.org/chain/${chainId}`}</loc>
+           <loc>${`https://chainlist.bitindi.org/chain/${chainId}`}</loc>
        </url>
      `;
        })
@@ -20,7 +20,7 @@ function generateSiteMap(chains) {
        .map(({ name }) => {
          return `
        <url>
-           <loc>${`https://chainlist.org/chain/${name.toLowerCase().split(" ").join("%20")}`}</loc>
+           <loc>${`https://chainlist.bitindi.org/chain/${name.toLowerCase().split(" ").join("%20")}`}</loc>
        </url>
      `;
        })
@@ -29,7 +29,7 @@ function generateSiteMap(chains) {
        .map((name) => {
          return `
        <url>
-           <loc>${`https://chainlist.org/chain/${name}`}</loc>
+           <loc>${`https://chainlist.bitindi.org/chain/${name}`}</loc>
        </url>
      `;
        })
@@ -38,7 +38,7 @@ function generateSiteMap(chains) {
        .map((name) => {
          return `
        <url>
-           <loc>${`https://chainlist.org/best-rpcs/${name}`}</loc>
+           <loc>${`https://chainlist.bitindi.org/best-rpcs/${name}`}</loc>
        </url>
      `;
        })
@@ -47,7 +47,7 @@ function generateSiteMap(chains) {
        .map((name) => {
          return `
        <url>
-           <loc>${`https://chainlist.org/top-rpcs/${name}`}</loc>
+           <loc>${`https://chainlist.bitindi.org/top-rpcs/${name}`}</loc>
        </url>
      `;
        })
