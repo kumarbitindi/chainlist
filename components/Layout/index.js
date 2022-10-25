@@ -70,9 +70,9 @@ export default function Layout({ changeTheme, theme, children }) {
                 </Typography>
               </Button>
               <div className={classes.socials}>
-                <a
+                  <a
                   className={`${classes.socialButton}`}
-                  https://github.com/bitindi/chain-list"
+                  href="https://github.com/bitindi/chain-list"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
