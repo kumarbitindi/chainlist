@@ -15,7 +15,7 @@ export default function Layout({ changeTheme, theme, children }) {
 
   const addRpc = () => {
     window.open(
-      "https://github.com/DefiLlama/chainlist/blob/main/constants/extraRpcs.json",
+      "https://github.com/bitindi/chain-list/blob/main/constants/extraRpcs.json",
       "_blank"
     );
   };
@@ -72,7 +72,7 @@ export default function Layout({ changeTheme, theme, children }) {
               <div className={classes.socials}>
                 <a
                   className={`${classes.socialButton}`}
-                  href="https://github.com/DefiLlama/chainlist"
+                  https://github.com/bitindi/chain-list"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
