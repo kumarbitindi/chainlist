@@ -34,6 +34,7 @@
   321: "kucoin",
   336: "shiden",
   361: "theta",
+  4099: "bitindi",
   416: "sx",
   534: "candle",
   592: "astar",
