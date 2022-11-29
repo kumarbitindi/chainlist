@@ -69,6 +69,12 @@
             "https://fantom-testnet.public.blastapi.io"
         ]
     },
+     "4099": {
+        "rpcs": [
+            "https://rpc-mainnet.bitindi.org/",
+            
+        ]
+    },
     "43113": {
         "rpcs": [
             "https://rpc.ankr.com/avalanche_fuji",
